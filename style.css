@@ -74,3 +74,38 @@ footer {
     background: rgba(0, 0, 0, 0.5);
     font-size: 0.9rem;
 }
+
+nav.top-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      background: #e0e0e0;
+      padding: 0.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav.top-links button {
+      background: #3c6064;
+      border: none;
+      padding: 0.5rem 0.8rem;
+      color: white;
+      font-size: 0.9rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      flex: 1 1 auto;
+      min-width: 80px;
+      max-width: 120px;
+      box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    }
+
+    nav.top-links button:hover {
+      background: #2b474b;
+      transform: translateY(-2px);
+    }
+
+/* Стили для раздела Строение Юрты */
