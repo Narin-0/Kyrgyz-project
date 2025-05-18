@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="/main.css"/>
+  <title>КыргызОрдо — путешествие по культуре</title>
+</head>
+<body>
+  <header>
+    <h1>КыргызОрдо — путешествие по культуре Кыргызстана</h1>
+  </header>
+
+  <div class="map-container">
+    <img src="/изоброжения/qwe.png" alt="Интерактивная карта ордо" class="map-image"/>
+
+    <div class="yurta" id="istoriya" onclick="openSection('История')"><span>История</span></div>
+    <div class="yurta" id="yazyk" onclick="openSection('Язык')"><span>Язык</span></div>
+    <div class="yurta" id="manas" onclick="openSection('Манас')"><span>Манас</span></div>
+    <div class="yurta" id="liter" onclick="openSection('Литература')"><span>Литература</span></div>
+    <div class="yurta" id="geo" onclick="openSection('География')"><span>География</span></div>
+    <div class="yurta" id="art" onclick="openSection('Искусство')"><span>Искусство</span></div>
+  </div>
+
+  <footer>
+    © 2025 КыргызОрдо | Звуки природы и кыргызская культура
+  </footer>
+
+  <script>
+    function openSection(name) {
+      alert(`Переход к разделу: ${name}`);
+      // Здесь можно реализовать переход: window.location.href = `sections/${name}.html`;
+    }
+  </script>
+</body>
+</html>
