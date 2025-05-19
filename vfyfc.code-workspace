@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "vfyfc",
+			"path": "../кыргыз тили сайт/Kyrgyz-project/vfyfc"
+		},
+		{
+			"name": "кыргызский проект",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "кыргызский проект"
+	}
+}

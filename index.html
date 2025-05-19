@@ -143,6 +143,16 @@
       background: #2b474b;
       transform: translateY(-2px);
     }
+
+    .yurta {
+      text-decoration: none;
+      color: white;
+    }
+
+    .yurta:hover {
+      text-decoration: none;
+      color: #ffcc00;
+    }
   </style>
 </head>
 <body>
@@ -150,12 +160,15 @@
   <p>Путешествие по культуре Кыргызстана</p>
 
   <div class="map-container">
-    <div class="yurta" id="istoriya" onclick="openSection('История')"><span>История</span></div>
-    <div class="yurta" id="yazyk" onclick="openSection('Язык')"><span>Язык</span></div>
-    <div class="yurta" id="manas" onclick="openSection('Манас')"><span>Манас</span></div>
-    <div class="yurta" id="liter" onclick="openSection('Литература')"><span>Литература</span></div>
-    <div class="yurta" id="geo" onclick="openSection('География')"><span>География</span></div>
-    <div class="yurta" id="art" onclick="openSection('Искусство')"><span>Искусство</span></div>
+    <div class="map-container">
+    <a href="Geography of Kg/geography.html" class="yurta" id="istoriya"><span>История</span></a>
+    <a href="yazyk.html" class="yurta" id="yazyk"><span>Язык</span></a>
+    <a href="/vfyfc/manas.html" class="yurta" id="manas"><span>Манас</span></a>
+    <a href="literatura.html" class="yurta" id="liter"><span>Литература</span></a>
+    <a href="Geography of Kg/geography.html" class="yurta" id="geo"><span>География</span></a>
+    <a href="iskusstvo.html" class="yurta" id="art"><span>Искусство</span></a>
+</div>
+
   </div>
   <script>
     function openSection(name) {
